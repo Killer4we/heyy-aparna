@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe4e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  color:black;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #d63384;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  max-width: 250px;
+  margin-top: 10px;
+  border: 2px solid #d63384;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+.cat-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-wrapper {
+  position: relative;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.yes-btn {
+  background-color: #28a745;
+}
+
+.yes-btn:hover {
+  background-color: #218838;
+}
+
+.no-btn {
+  background-color: #dc3545;
+}
+
+@media (max-width: 500px) {
+  .card {
+    padding: 20px 15px;
+  }
+
+  input, button {
+    width: 100%;
+    max-width: none;
+  }
+
+  .btn-wrapper {
+    height: 200px;
+  }
+}
